@@ -1,8 +1,9 @@
 import React from 'react'
 import { StreamChat } from 'stream-chat';
 import { Chat } from 'stream-chat-react';
-import Cookies from 'universal-cookie';
-import { ChannelListContainer, ChannelContainer}  from './components';
+import { Cookies } from 'universal-cookie';
+import ChannelListContainer from   './components/ChannelListContainer';
+import ChannelContainer from './components/ChannelContainer';
 
 
 const apikey = 'va7qgce3cmjf';
@@ -22,5 +23,5 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
 
