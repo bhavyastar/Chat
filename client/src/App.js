@@ -8,6 +8,9 @@ import ChannelContainer from './components/ChannelContainer';
 
 const apikey = 'va7qgce3cmjf';
 const Client = StreamChat.getInstance(apikey);
+
+const authToken = false;
+
 const App = () => {
   return (
     <div className="container_1">
